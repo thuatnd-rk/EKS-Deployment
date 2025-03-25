@@ -1,0 +1,13 @@
+variable "aws_vpc" {}
+variable "aws_public_subnet" {}
+variable "aws_private_subnet" {}
+variable "aws_role_cluster" {}
+variable "aws_role_nodes" {}
+variable "cluster_AmazonEKSClusterPolicy" {}
+variable "cluster_AmazonEKSBlockStoragePolicy" {}
+variable "cluster_AmazonEKSLoadBalancingPolicy" {}
+variable "cluster_AmazonEKSNetworkingPolicy" {}
+variable "cluster_AmazonEKSVPCResourceController" {}
+variable "eks-AmazonEKSWorkerNodePolicy" {}
+variable "eks-AmazonEKS_CNI_Policy" {}
+variable "eks-AmazonEC2ContainerRegistryFullAccess" {}

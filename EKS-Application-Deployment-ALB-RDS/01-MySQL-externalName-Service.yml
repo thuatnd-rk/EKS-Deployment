@@ -1,0 +1,9 @@
+#01-MySQL-externalName-Service.yml
+apiVersion: v1
+kind: Service
+metadata:
+  name: mysql
+spec:
+  type: ExternalName
+  externalName: ndthuatdb.ccwhtrzfc2de.us-east-1.rds.amazonaws.com
+  
