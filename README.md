@@ -2,7 +2,7 @@
 
 ## 📷 Architecture Diagram
 
-![EKS Architecture](imgs\aws-eks-alb-ingress-context-path-based-routing.png "EKS Deployment Diagram")
+![EKS Architecture](.\imgs\aws-eks-alb-ingress-context-path-based-routing.png "EKS Deployment Diagram")
 
 ---
 
