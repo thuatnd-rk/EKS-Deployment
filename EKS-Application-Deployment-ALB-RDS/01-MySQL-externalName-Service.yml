@@ -5,5 +5,5 @@ metadata:
   name: mysql
 spec:
   type: ExternalName
-  externalName: ndthuatdb.ccwhtrzfc2de.us-east-1.rds.amazonaws.com
+  externalName: <your-db-endpoint>.ccwhtrzfc2de.us-east-1.rds.amazonaws.com
   

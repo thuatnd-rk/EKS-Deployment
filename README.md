@@ -29,8 +29,8 @@ Before deploying the microservice, we need a MySQL database running in **Amazon 
 - **Type:** MySQL/Aurora
 - **Protocol:** TCP
 - **Port:** 3306
-- **Source:** Anywhere (`0.0.0.0/0`)
-- **Description:** Allow access for RDS Database (Labs only)
+- **Source:** Anywhere (`0.0.0.0/0`)  (Labs only)
+- **Description:** Allow access for RDS Database
 
 **Outbound Rules:**
 - Leave as default (Allow All)
@@ -81,7 +81,8 @@ Once the RDS instance is available, connect to it using a temporary MySQL client
 
 ```bash
 kubectl run -it --rm --image=mysql:5.7.22 --restart=Never mysql-client -- \
-  mysql -h <your-db-endpoint>.rds.amazonaws.com -u dbadmin -pdbpassword11
+  mysql -h <your-db-endpoint>.ccwhtrzfc2de.us-east-1.rds.amazonaws.com -u dbadmin -pdbpassword11 --ssl-mode=DISABLED
+
 ```
 
 🔄 Replace `<your-db-endpoint>` with the actual endpoint (e.g., `usermgmtdb.c7hldelt9xfp.us-east-1.rds.amazonaws.com`)
