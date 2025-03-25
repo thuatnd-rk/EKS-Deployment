@@ -1,13 +1,8 @@
-Dưới đây là file `README.md` đầy đủ, đã tích hợp phần **khởi tạo RDS MySQL**, đưa phần **Architecture Diagram** lên đầu, và định dạng rõ ràng để bạn dùng trực tiếp:
-
----
-
-```md
 # 📦 User Management Application on Amazon EKS
 
 ## 📷 Architecture Diagram
 
-![EKS Architecture](./imgs/aws-eks-alb-ingress-context-path-based-routing.png "EKS Deployment Diagram")
+![EKS Architecture](imgs\aws-eks-alb-ingress-context-path-based-routing.png "EKS Deployment Diagram")
 
 ---
 
@@ -201,8 +196,3 @@ Make sure these endpoints return `200 OK` for ALB health check success.
 - ALB annotations must match services correctly for health checks and routing.
 
 ---
-```
-
----
-
-Bạn có muốn mình xuất file `.md` hoặc tạo file `.zip` để tải về dễ dàng không? Hoặc nếu bạn muốn bản tiếng Việt thì mình cũng có thể hỗ trợ nhé!
