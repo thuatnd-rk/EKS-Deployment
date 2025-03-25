@@ -1,13 +1,9 @@
-# EKS-Deployment
-Dưới đây là phiên bản đã chỉnh sửa của `README.md` với phần **Architecture Diagram** được đưa lên đầu và để trống để bạn chèn ảnh vào sau:
-
----
-
 # 📦 User Management Application on Amazon EKS
 
 ## 📷 Architecture Diagram
 
-*(Insert image here)*
+![EKS Architecture](./imgs/aws-eks-alb-ingress-context-path-based-routing.png "EKS Deployment Diagram")
+
 
 ---
 
